@@ -39,6 +39,7 @@ export default class App extends React.Component {
           (collection.password = this.state.password),
           (collection.lat = position.coords.latitude);
         collection.long = position.coords.longitude;
+        // console.log(collection);
         fetch(`http://abhinavanand500.pythonanywhere.com/writedata`, {
           method: 'POST',
           headers: {
