@@ -1,2 +1,2 @@
-# Attendance System, built using react native
+# Attendance System, built using React Native
 Working Fine
